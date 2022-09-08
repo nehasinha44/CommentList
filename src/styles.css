@@ -1,0 +1,9 @@
+body {
+  background: #fff;
+  padding: 20px;
+  font-family: Helvetica;
+}
+.comment {
+  padding: 4px 4px 4px 10px;
+  border-left: 1px solid grey;
+}
