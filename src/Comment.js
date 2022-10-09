@@ -1,11 +1,11 @@
 import React from "react";
 import CommentList from "./commentList";
 
-const Comment = ({ ...props }) => {
+const Comment = ({ comments={} }) => {
   return (
     <div>
-      {props?.comments !== undefined &&
-        props?.comments.map((comm, key) => {
+      {comments !== undefined &&
+        comments.map((comm, key) => {
           return (
             <div
               key={key}
